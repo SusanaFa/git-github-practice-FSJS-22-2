@@ -1,0 +1,39 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0%;
+}
+
+li {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+ 
+p {
+    padding-top: 20px;
+}
+footer {
+    background-color: #353434;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position:button;
+    bottom:0px;
+    width: 100%;
+    margin-top: auto;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
