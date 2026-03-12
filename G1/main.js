@@ -12,7 +12,7 @@ boton.addEventListener('click', function() {
     setTimeout(() => {
         if (esLaPrimeraImagen) {
             imagen.src = link2;
-            boton.innerText = "CLIC PARA VOLVER A MI FELICIDAD :')";
+            boton.innerText = "CLIC PARA VOLVER A MI FELICIDAD => :')";
         } else {
             imagen.src = link1;
             boton.innerText = "AHORA VIENE JAVASCRIPT, CLIC PARA VER COMO ME SENTIRÉ";
